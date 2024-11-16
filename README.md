@@ -1,6 +1,6 @@
 # Scott's Portfolio
 ## About Me
-I'm a retired tech professional with an Electrical Engineering, Functional Management and Product Management background pursuing a better understanding of topics in Computer Science and programming. Building off very early experiences with FORTRAN and Assembly language in college (using punched cards, no less) and personal adventures with Turbo Pascal / Turbo c/c++ in the 80's and 90's, I've more recently explored the world of physical computing with c/c++ on Arduino machines and MicroPython on the Raspberry Pi Pico W.
+I'm a retired tech professional with an Electrical Engineering, Functional Management and Product Management background pursuing a better understanding of topics in Computer Science and programming. Building off very early experiences with FORTRAN and Assembly language in college (using punched cards, no less) and personal adventures with Turbo Pascal / Turbo c/c++ in the 80's and 90's, I've more recently explored the world of physical computing with c/c++ on Arduino micro-controllers and MicroPython on the Raspberry Pi Pico W.
 
 MicroPython caught my interest immediately, leading to a deeper dive into regular Python, and to the wonderful CS50P online course on Python Programming offered by Harvard through edX. My final project from that course is the first entry into this personal portfolio.
 
