@@ -385,15 +385,9 @@ Takes no input parameters and returns a random item from the list Magic8.ANSWERS
 ```
 
 #### speakAnswer(self, answer):
-Takes a string answer as an input, passes that string to an instance of the the pyttsx3 engine object, and causes the engine to speak "The Magic 8 Oracle says:", followed by speaking the text string defined by the input parameter 'answer'.  The method returns no parameters.  See code snippet below.
-```python
-    def getAnswer(self):
-        from random import randint
-        n = randint(0,len(Magic8.ANSWERS)-1)
-        return Magic8.ANSWERS[n]
-```
->__Warning__: Use of this method requires that the pyttsx3 package be installed using PIP (pip install pyttsx3). It may not work in cloud-hosted development environments like Codespaces even when the package is properly installed.
+Takes a string answer as an input, passes that string to an instance of the the pyttsx3 engine class, and causes the engine to speak "The Magic 8 Oracle says:", followed by speaking the text string defined by the input parameter 'answer'.  The method returns no parameters.  See code snippet below.
 
+>__Warning__: Use of this method requires that the pyttsx3 package be installed using PIP (pip install pyttsx3). It may not work in cloud-hosted development environments like Codespaces even when the package is properly installed.
 ```python
     def speakAnswer(self, answer):      # Don't use this method if executing in Codespaces
         import pyttsx3                  # Works fine in stand-alone VS Code on Windows
