@@ -6,7 +6,7 @@ MicroPython caught my interest immediately, leading to a deeper dive into regula
 
 I expect to add more items to the portfolio that reflect my learning journey, many of which feature the Python Pygame library as I've found it be to an enabler for new and entertaining project ideas (and I like programming games...)
 
-I'll also add some Arduino and Raspberry Pi Pico W projects that derive from assignments made in some of the many excellent lesson series produced by Paul McWhorter, who is an gifted educator and inspiring human being. You can find him on YouTube here: <https://www.youtube.com/@paulmcwhorter>
+I'll also add some Arduino and Raspberry Pi Pico W projects that derive from assignments made in some of the many excellent lesson series produced by Paul McWhorter, who is a gifted educator and inspiring human being. You can find him on YouTube here: <https://www.youtube.com/@paulmcwhorter>
 
 ## What's Next:
 Though I've already ventured into some of the following subjects to a small degree, next up on the list for further study are:
