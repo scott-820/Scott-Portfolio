@@ -13,6 +13,6 @@ Though I've already ventured into some of the following subjects to a small degr
 * HTML / CSS
 * JavaScript
 * Django (and maybe Flask)
-* SQL
+* SQL/sqlite3
 * Data Analytics
 
