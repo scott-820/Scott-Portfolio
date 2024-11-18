@@ -1,6 +1,6 @@
 # Scotzee
 ## A Familiar Dice Game with an Exceedingly Clever Name
-Scotzee is a dice game where the player tries to maximize their score in a game of 13 rounds, across 13 different scoring categories.
+Scotzee is a dice game where the player tries to maximize their score in a game of 13 rounds across 13 different scoring categories.
 #### Watch a video demo of the project here: <https://youtu.be/xRx9d-cMRj8>
 ## Game Play
 >For each of the 13 rounds in a game, players will roll 5 dice up to three times, trying to find the best score not yet used in the game. On the first roll, all 5 dice are rolled. For subsequent rolls in a round, players may choose to re-roll all of the dice or, any subset of the die \(withholding the remainder from that roll). A player need not roll 3 times in a round if they wish to score their dice after the first or second roll.<br>
@@ -32,3 +32,17 @@ Scotzee is a dice game where the player tries to maximize their score in a game 
 
 >Each additional Scotzee will also add a 100 point lower half bonus to the overall game score.
 
+## The Scotzee Program:
+As with most of the games I've written in Python, Scotzee.py is based on the Pygame package \(pip install pygame), the documentation for which can be found here: <https://www.pygame.org/docs/>
+>**Note:** The fonts used in the progam are part of the standard Windows font package. If you are using a Linux or Mac OS, then you will likely have to install Windows fonts on your system, or modify the code to use equivalent or alternative fonts.
+### Program Files:
+#### scotzee.py:
+Game flow and logic is managed in this file, primarily within the main() function, which implments a fairly standard pygame loop which repeatedly:
+* Draws game elements to the screen
+* Checks mouse-enabled elements for mouse clicks/selection, responding appropriately
+* Checks for events (just pygame.QUIT in this program), responding appropriately
+
+The pygame loop normally will handle movement of elements on the screen as well, however Scotzee has no moving elements to handle.
+>**Note:** The graphics files used in scotzee.py are all located in the folder "./graphics"
+#### settings.py:
+This file contains the game settings and "constants". Use "from settings import *" to avoid prefixing "settings." to items referenced in settings.py.
