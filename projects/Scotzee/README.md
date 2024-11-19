@@ -3,7 +3,7 @@
 Scotzee is a dice game where the player tries to maximize their score in a game of 13 rounds across 13 different scoring categories.
 #### Watch a video demo of the project here: <https://youtu.be/xRx9d-cMRj8>
 ## To Do
-* Add Best Score tracking, storage and user notification
+* ~Add Best Score tracking, storage and user notification~
   
 ## Game Play
 >For each of the 13 rounds in a game, players will roll 5 dice up to three times, trying to find the best score not yet used in the game. On the first roll, all 5 dice are rolled. For subsequent rolls in a round, players may choose to re-roll all of the dice or, any subset of the die \(withholding the remainder from that roll). A player need not roll 3 times in a round if they wish to score their dice after the first or second roll.<br>
@@ -134,10 +134,10 @@ class CheckBox():
         self.ypos = y
         self.label = label
         self.enabled = enabled
-        self.col = col
-        self.disCol = disCol
+        self.col = col          # Text color when checkbox is enabled
+        self.disCol = disCol    # Text color when checkbox is disabled
         self.selected = False    
-        self.score = 0          
+        self.score = 0          # The score value currently assigned to the checkbox  
         self.drawScore = False  # Init to False; logically managed externally by the user
       
     def draw(self, surface):
