@@ -1,1 +1,1 @@
-bestScore=247
+bestScore=217
