@@ -17,8 +17,8 @@
 // The measured azimuth/tilt is applied to a function that returns a corresponding DC voltage value based on 3 piece-wise parabolic
 // equations to simulate the main lobe and two smaller side lobes seen by a microwave receiver when the far end of the 
 // link is transmitting.
-// The returned voltage value is converted to 12-bit digital value and sent to the DAC.  The output of the DAC (which would 
-// also be tied to the DVM input of the RF Vision) is tied back to pin A3 on the Nano where it can be read / validated.
+// The returned voltage value is converted to 12-bit digital value and sent to the DAC.  The output of the DAC (which is the object
+// of our simulation) is tied back to pin A3 on the Nano where it can be read / validated.
 // Within each measurement loop, the current azimuth/tilt value is printed at the top of the OLED display for reference, and the 
 // azimuth/tilt + A3 voltage pair is graphed as an individual pixel on the bottom portion of the OLED.
 //
@@ -243,3 +243,4 @@ float getVoltage (float AzVal){
   } 
   return 0; //Az value out of bounds
 } // end getVoltage
+
