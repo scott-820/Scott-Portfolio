@@ -1,5 +1,5 @@
 # Projects
-This folder showcases projects I have completed
+This folder has a sampling of projects I have completed
 ## Contents
 * [CS50P Final Project](cs50P_Final_Project)
 * [Breakout on Arduino Uno R4 WiFi](Arduino/Breakout)
