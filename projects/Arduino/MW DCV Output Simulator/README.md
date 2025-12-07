@@ -1,7 +1,7 @@
 # Microwave Antenna DC Voltage Output Simulator
 This Arduino sketch implements a Microwave Receiver Signal Strength to DC Volts Output Simulator using an Arduino Nano, a SSD-1306 OLED, an Adafruit BNO055 9-axis Inertial Measurement Unit and a MCP4725 I2C 12-bit DAC.  SSD1306-based OLED.
 
-You can see a quick video demo of the circuit here: <https://madeitup.com>
+You can see a quick video demo of the circuit here: <https://youtu.be/7U6ygnXBwGU>
 
 ## Circuit description: 
 A single I2C bus is used by the Arduino Nano to communicate to the OLED, the BNO055 and the MCP4725. The I2C is implemented on default Nano pins: SDA = pin A4; SCL = pin A5; 5.0V = pin 5V on the nano; GND = pin GND on the nano.
