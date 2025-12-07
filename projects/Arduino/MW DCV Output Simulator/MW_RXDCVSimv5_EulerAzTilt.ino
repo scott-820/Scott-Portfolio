@@ -9,8 +9,8 @@
 // BNO055 IMU using 12C address 0x29 hex
 // MCP4725 using I2C address 0x62 hex.  Vcc is 5.0V so the analog output range of the MCP4725 will be 0.0V to 5.0V.
 // The analog output of the MCP4725 is connected back to the pin A3 of the Nano for verification and plotting on the OLED.
-// A slide switch is connected to D5, setup as a digital input with pullup. The switch value will determine if angle being monitored 
-// and graphed is Azimuth (D5 = HIGH) or Tilt (D5 = LOW). 
+// A momentary pushbutton switch is connected to D5, setup as a digital input with pullup. The switch value will determine 
+// if angle being monitored and graphed is Azimuth (D5 = HIGH) or Tilt (D5 = LOW). 
 //
 // The IMU is configured to use the fast Fusion mode, which provides Euler angles that are relative to the resting point of
 // the board at power on or reset.  The Euler X value represents relative heading and is used as the Azimuth value. Euler Y is Tilt.
@@ -243,4 +243,5 @@ float getVoltage (float AzVal){
   } 
   return 0; //Az value out of bounds
 } // end getVoltage
+
 
