@@ -17,6 +17,8 @@ To run either client, the following Python packages must be installed either glo
 
 ## The Raspberry Pi Pico Server
 The Pico W Micropython server code was developed using the Thonny IDE. It is recommended that the server code be executed while the Pico W is connected over USB to Thonny so that print outputs from the Micropython program can be seen in the IDE.
+
+The GPIO pin selection and connection of the RGB LED to the Pico W are easily determined by inspecting the Micropython code.
 ### Server Requirements
 To run the Pico W server, the following micropython packages must be available to the Pico W:
 * machine, Pin, PWM
